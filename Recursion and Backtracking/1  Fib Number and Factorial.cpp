@@ -29,7 +29,7 @@ long long fact(int n, int f=1){
 
 // Driver code
 int main() {
-    cout << fact(5);
-    cout<< fib(5);
+    cout << fact(5) <<endl;
+    cout<< fib(5) <<endl;
     return 0;
 }
