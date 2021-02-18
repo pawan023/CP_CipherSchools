@@ -1,5 +1,14 @@
 // Add two numbers in the linked list
 
+struct Node {
+    int data;
+    struct Node* next;
+    Node(int x) {
+        data = x;
+        next = NULL;
+    }
+};
+
 struct Node * reverse(struct Node * head){
     Node *prev=NULL, *curr=head;
     while(curr){
@@ -10,15 +19,6 @@ struct Node * reverse(struct Node * head){
     }
     return prev;
 }
-
-struct Node {
-    int data;
-    struct Node* next;
-    Node(int x) {
-        data = x;
-        next = NULL;
-    }
-};
 
 struct Node* addTwoLists(struct Node* first, struct Node* second)
 {
