@@ -4,7 +4,7 @@ struct Node
 {
     int data;
     struct Node *next;
-}
+};
 
 //1
 struct Node* reverse(struct Node *curr, struct Node *prev){
