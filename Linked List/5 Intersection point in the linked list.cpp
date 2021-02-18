@@ -7,6 +7,7 @@ struct Node {
     data = x;
     next = NULL;
   }
+};
 
 /* Should return data of intersection point of two linked
    lists head1 and head2.
